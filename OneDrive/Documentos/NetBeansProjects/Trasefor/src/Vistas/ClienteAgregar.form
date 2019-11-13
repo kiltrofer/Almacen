@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" pref="87" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="btnGuardar" min="-2" pref="92" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lblRut" min="-2" pref="33" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblRazonSocial" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblComuna" alignment="0" min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Component id="lblCiudad" alignment="0" min="-2" pref="39" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="lblDireccion" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="18" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtRut" alignment="1" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="txtRazonSocial" alignment="1" min="-2" pref="150" max="-2" attributes="0"/>
+                          <Component id="cmbCiudad" alignment="1" min="-2" pref="151" max="-2" attributes="0"/>
+                          <Component id="txtComuna" alignment="1" min="-2" pref="151" max="-2" attributes="0"/>
+                          <Component id="txtDireccion" alignment="1" min="-2" pref="151" max="-2" attributes="0"/>
+                          <Component id="btnCancelar" alignment="1" min="-2" pref="93" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="70" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel1" min="-2" pref="24" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblRut" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="txtRut" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblRazonSocial" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="txtRazonSocial" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="9" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDireccion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDireccion" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cmbCiudad" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCiudad" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtComuna" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="lblComuna" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnGuardar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nuevo Cliente"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRut">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rut"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRazonSocial">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Razon Social"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCiudad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ciudad"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblComuna">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Comuna"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRut">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtRutKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtRazonSocial">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtComuna">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtComunaKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbCiudad">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="179">
+            <StringItem index="0" value="Aldea de Tulor"/>
+            <StringItem index="1" value="Alto El Loa"/>
+            <StringItem index="2" value="Antofagasta"/>
+            <StringItem index="3" value="Arica"/>
+            <StringItem index="4" value="Bah&#xed;a Inglesa"/>
+            <StringItem index="5" value="Calama"/>
+            <StringItem index="6" value="Caspana"/>
+            <StringItem index="7" value="Cerro Toco"/>
+            <StringItem index="8" value="Chiu - Chiu"/>
+            <StringItem index="9" value="Copiap&#xf3;"/>
+            <StringItem index="10" value="G&#xe9;isers del Tatio"/>
+            <StringItem index="11" value="Guat&#xed;n"/>
+            <StringItem index="12" value="Hierbas Buenas"/>
+            <StringItem index="13" value="Iquique"/>
+            <StringItem index="14" value="La Tirana"/>
+            <StringItem index="15" value="Laguna Cejar"/>
+            <StringItem index="16" value="Laguna Chaxa"/>
+            <StringItem index="17" value="Laguna Roja"/>
+            <StringItem index="18" value="Lagunas Altipl&#xe1;nicas (Miscanti y Mi&#xf1;iques)"/>
+            <StringItem index="19" value="Machuca"/>
+            <StringItem index="20" value="Monumento Natural Salar de Surire"/>
+            <StringItem index="21" value="Oficinas Salitreras Humberstone"/>
+            <StringItem index="22" value="Ojos del Salar y laguna Tebinquinche"/>
+            <StringItem index="23" value="Ollag&#xfc;e"/>
+            <StringItem index="24" value="Parque Nacional Lauca"/>
+            <StringItem index="25" value="Parque Nacional Llanos de Challe"/>
+            <StringItem index="26" value="Parque Nacional Llullaillaco"/>
+            <StringItem index="27" value="Parque Nacional Nevado Tres Cruces"/>
+            <StringItem index="28" value="Parque Nacional Pan de Az&#xfa;car"/>
+            <StringItem index="29" value="Parque Nacional Salar de Huasco"/>
+            <StringItem index="30" value="Parque Nacional Volc&#xe1;n Isluga"/>
+            <StringItem index="31" value="Pukar&#xe1; de Lasana"/>
+            <StringItem index="32" value="Pukar&#xe1; de Quitor"/>
+            <StringItem index="33" value="Putre"/>
+            <StringItem index="34" value="Reserva Nacional Los Flamencos"/>
+            <StringItem index="35" value="Reserva Nacional Pampa del Tamarugal"/>
+            <StringItem index="36" value="Salar de Atacama"/>
+            <StringItem index="37" value="Salar de Tara"/>
+            <StringItem index="38" value="San Pedro de Atacama"/>
+            <StringItem index="39" value="Socaire"/>
+            <StringItem index="40" value="Termas de Mami&#xf1;a"/>
+            <StringItem index="41" value="Termas de Puritama"/>
+            <StringItem index="42" value="Toconao"/>
+            <StringItem index="43" value="Valle de la Luna"/>
+            <StringItem index="44" value="Valle del Arcoiris"/>
+            <StringItem index="45" value="Volc&#xe1;n L&#xe1;scar"/>
+            <StringItem index="46" value="Volc&#xe1;n Licancabur"/>
+            <StringItem index="47" value="Volc&#xe1;n Ojos del Salado"/>
+            <StringItem index="48" value="Volc&#xe1;n SairecaburCoquimbo"/>
+            <StringItem index="49" value="La Serena"/>
+            <StringItem index="50" value="Parque Nacional Bosques de Fray Jorge"/>
+            <StringItem index="51" value="Pisco Elqui"/>
+            <StringItem index="52" value="Reserva Nacional Ping&#xfc;ino de Humboldt"/>
+            <StringItem index="53" value="Termas de Socos"/>
+            <StringItem index="54" value="Tongoy"/>
+            <StringItem index="55" value="Valle del ElquiAlgarrobo"/>
+            <StringItem index="56" value="Alto del Naranjo"/>
+            <StringItem index="57" value="Ba&#xf1;os Colina"/>
+            <StringItem index="58" value="Caj&#xf3;n del Maipo"/>
+            <StringItem index="59" value="Curic&#xf3;"/>
+            <StringItem index="60" value="El Colorado"/>
+            <StringItem index="61" value="Farellones"/>
+            <StringItem index="62" value="Isla Negra"/>
+            <StringItem index="63" value="Isla Robinson Crusoe"/>
+            <StringItem index="64" value="La Parva"/>
+            <StringItem index="65" value="Lago Colb&#xfa;n"/>
+            <StringItem index="66" value="Lago Rapel"/>
+            <StringItem index="67" value="Lago Vichuqu&#xe9;n"/>
+            <StringItem index="68" value="Laguna Aculeo"/>
+            <StringItem index="69" value="Los Andes / Portillo"/>
+            <StringItem index="70" value="Mall Costanera Center"/>
+            <StringItem index="71" value="Monumento Natural El Morado"/>
+            <StringItem index="72" value="Monumento Natural Isla Cachagua"/>
+            <StringItem index="73" value="Museo de Colchagua"/>
+            <StringItem index="74" value="Olmu&#xe9;"/>
+            <StringItem index="75" value="Outlet Buenaventura"/>
+            <StringItem index="76" value="Parque Aguas de San Ram&#xf3;n"/>
+            <StringItem index="77" value="Parque Nacional La Campana"/>
+            <StringItem index="78" value="Parque Nacional Radal Siete Tazas"/>
+            <StringItem index="79" value="Pichilemu"/>
+            <StringItem index="80" value="Rancagua"/>
+            <StringItem index="81" value="Reserva Nacional Altos del Lircay"/>
+            <StringItem index="82" value="Reserva Nacional Laguna Torca"/>
+            <StringItem index="83" value="Reserva Nacional R&#xed;o Clarillo"/>
+            <StringItem index="84" value="Reserva Nacional R&#xed;o Los Cipreses"/>
+            <StringItem index="85" value="San Fernando"/>
+            <StringItem index="86" value="Santa Cruz"/>
+            <StringItem index="87" value="Santiago"/>
+            <StringItem index="88" value="Sewell"/>
+            <StringItem index="89" value="Ski en Santiago"/>
+            <StringItem index="90" value="Talca"/>
+            <StringItem index="91" value="Termas de Cauquenes"/>
+            <StringItem index="92" value="Termas de Panim&#xe1;vida"/>
+            <StringItem index="93" value="Termas de Quinam&#xe1;vida"/>
+            <StringItem index="94" value="Termas del Flaco"/>
+            <StringItem index="95" value="Valle de Almahue"/>
+            <StringItem index="96" value="Valle de Casablanca"/>
+            <StringItem index="97" value="Valle de Colchagua"/>
+            <StringItem index="98" value="Valle del Maipo"/>
+            <StringItem index="99" value="Valle Nevado"/>
+            <StringItem index="100" value="Valpara&#xed;so"/>
+            <StringItem index="101" value="Vi&#xf1;a Casa Silva"/>
+            <StringItem index="102" value="Vi&#xf1;a Concha y Toro"/>
+            <StringItem index="103" value="Vi&#xf1;a del Mar"/>
+            <StringItem index="104" value="Vi&#xf1;a Escondida"/>
+            <StringItem index="105" value="Vi&#xf1;a Lapostolle"/>
+            <StringItem index="106" value="Vi&#xf1;a Matetic"/>
+            <StringItem index="107" value="Vi&#xf1;a Montes"/>
+            <StringItem index="108" value="Vi&#xf1;a MontGras"/>
+            <StringItem index="109" value="Vi&#xf1;a Santa Cruz"/>
+            <StringItem index="110" value="Vi&#xf1;a Santa Rita"/>
+            <StringItem index="111" value="Vi&#xf1;a Undurraga"/>
+            <StringItem index="112" value="Vi&#xf1;a Vik"/>
+            <StringItem index="113" value="Vi&#xf1;a Viu Manent"/>
+            <StringItem index="114" value="Volc&#xe1;n San Jos&#xe9;"/>
+            <StringItem index="115" value="Yerba Loca"/>
+            <StringItem index="116" value="ZapallarAraucan&#xed;a y Los R&#xed;os"/>
+            <StringItem index="117" value="Backyard Pullao"/>
+            <StringItem index="118" value="Chill&#xe1;n"/>
+            <StringItem index="119" value="Cocham&#xf3;"/>
+            <StringItem index="120" value="Concepci&#xf3;n"/>
+            <StringItem index="121" value="Contulmo"/>
+            <StringItem index="122" value="Corralco"/>
+            <StringItem index="123" value="Crater Raihuen"/>
+            <StringItem index="124" value="Curacaut&#xed;n"/>
+            <StringItem index="125" value="El Ca&#xf1;i"/>
+            <StringItem index="126" value="Fiordo Quintupeu"/>
+            <StringItem index="127" value="Frutillar"/>
+            <StringItem index="128" value="Lago Budi"/>
+            <StringItem index="129" value="Lago Llanquihue"/>
+            <StringItem index="130" value="Lago Lleu Lleu"/>
+            <StringItem index="131" value="Lago Ranco"/>
+            <StringItem index="132" value="Lago Todos los Santos"/>
+            <StringItem index="133" value="Lonquimay"/>
+            <StringItem index="134" value="Los &#xc1;ngeles"/>
+            <StringItem index="135" value="Monumento Natural Cerro &#xd1;ielol"/>
+            <StringItem index="136" value="Ojos del Caburgua"/>
+            <StringItem index="137" value="Osorno"/>
+            <StringItem index="138" value="Parque Nacional Alerce Andino"/>
+            <StringItem index="139" value="Parque Nacional Conguill&#xed;o"/>
+            <StringItem index="140" value="Parque Nacional Huerquehue"/>
+            <StringItem index="141" value="Parque Nacional Laguna del Laja"/>
+            <StringItem index="142" value="Parque Nacional Nahuelbuta"/>
+            <StringItem index="143" value="Parque Nacional Puyehue"/>
+            <StringItem index="144" value="Parque Nacional Tolhuaca"/>
+            <StringItem index="145" value="Parque Nacional Vicente Perez Rosales"/>
+            <StringItem index="146" value="Parque Nacional Villarrica"/>
+            <StringItem index="147" value="Parque Tagua-Tagua"/>
+            <StringItem index="148" value="Peninsula de Ril&#xe1;n"/>
+            <StringItem index="149" value="Puc&#xf3;n"/>
+            <StringItem index="150" value="Puerto Montt"/>
+            <StringItem index="151" value="Puerto Octay"/>
+            <StringItem index="152" value="Puerto Varas"/>
+            <StringItem index="153" value="Quinqu&#xe9;n"/>
+            <StringItem index="154" value="Reserva Biologica Huilo Huilo"/>
+            <StringItem index="155" value="Reserva Nacional Isla Mocha"/>
+            <StringItem index="156" value="Reserva Nacional Malalcahuello"/>
+            <StringItem index="157" value="R&#xed;o Puelo"/>
+            <StringItem index="158" value="R&#xed;o Trancura"/>
+            <StringItem index="159" value="Salto del Laja"/>
+            <StringItem index="160" value="Saltos de Petrohu&#xe9;"/>
+            <StringItem index="161" value="Santuario de la Naturaleza Carlos Anwandter"/>
+            <StringItem index="162" value="Ski en Antillanca"/>
+            <StringItem index="163" value="Ski en Chill&#xe1;n"/>
+            <StringItem index="164" value="Sollipulli"/>
+            <StringItem index="165" value="Temuco"/>
+            <StringItem index="166" value="Termas de Aguas Calientes"/>
+            <StringItem index="167" value="Termas de Chill&#xe1;n"/>
+            <StringItem index="168" value="Termas de Co&#xf1;aripe"/>
+            <StringItem index="169" value="Termas de Huife"/>
+            <StringItem index="170" value="Termas de Liqui&#xf1;e"/>
+            <StringItem index="171" value="Termas de Puyehue"/>
+            <StringItem index="172" value="Termas de Tolhuaca"/>
+            <StringItem index="173" value="Termas Geom&#xe9;tricas"/>
+            <StringItem index="174" value="Totoral"/>
+            <StringItem index="175" value="Trekking al Salto del Puma Anticura"/>
+            <StringItem index="176" value="Valdivia"/>
+            <StringItem index="177" value="Villarrica"/>
+            <StringItem index="178" value="Volc&#xe1;n Osorno"/>
+          </StringArray>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Cursor Por defecto"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbCiudadActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnGuardar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Guardar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCancelar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(Sin Digit&#xf3; Verificador)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDireccion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Direccion"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDireccion">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDireccionActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
